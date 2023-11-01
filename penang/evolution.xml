@@ -1,3 +1,16 @@
 <manifest>
+  <project path="device/motorola/penang" name="nattolecats/device_motorola_penang" revision="udc" remote="github" />
+  <project path="device/motorola/penang-kernel" name="nattolecats/device_motorola_penang-kernel" revision="T" remote="github" />
+  <project path="device/motorola/penang-images" name="nattolecats/device_motorola_penang-images" revision="T" remote="github" />
+  <project path="vendor/motorola/penang" name="nattolecats/vendor_motorola_penang" revision="T" remote="github" />
+  <project path="vendor/motorola/felica" name="nattolecats/vendor_motorola_felica" revision="T" remote="github" />
+  <project path="kernel/motorola/msm-5.4" name="nattolecats/kernel_motorola_msm-5.4" revision="13-rewrite" remote="github" clone-depth="1" />
+  <project path="packages/apps/MotoActions" name="nattolecats/packages_apps_MotoActions" revision="lineage-20.0" remote="github" clone-depth="1" />
 
+  <!-- Common -->
+  <project path="device/motorola/common" name="moto-common/android_device_motorola_common" revision="14" remote="github" clone-depth="1" />
+  <project path="device/motorola/sm4350-common" name="moto-common/android_device_motorola_sm4350-common" revision="14" remote="github" clone-depth="1" />
+
+  <!-- Misc -->
+  <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" revision="14.0" remote="github" clone-depth="1" />
 </manifest>
